@@ -1,0 +1,27 @@
+body {
+    background-image: url("Images/booking.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: brown;
+    font-size: 16px;
+    color: white;
+    position: relative;
+   
+}
+
+
+.formc {
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    transform: translate(20%, 40%);
+}
+
+.formc input {
+    color: blueviolet;
+}

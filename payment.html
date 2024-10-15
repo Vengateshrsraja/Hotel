@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Details</h1>
+        <form>
+            <div class="form-group">
+                <label for="cardName">Cardholder Name</label>
+                <input type="text" id="cardName" name="cardName" required placeholder="Vengateshraja">
+            </div>
+            
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" name="cardNumber" required placeholder="1234 5678 9012 3456">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="expiryDate">Expiry Date</label>
+                    <input type="month" id="expiryDate" name="expiryDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" required placeholder="123">
+                </div>
+            </div>
+            <h2>Customer Details:</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="username" required placeholder="Enter Your name">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="useraddress" required placeholder="Enter your correct Address">
+            </div>
+
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="usercity" required placeholder="City">
+            </div>
+
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="userstate" required placeholder="State">
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Payment Amount</label>
+                <input type="number" id="amount" name="useramount" required placeholder="Amount">
+            </div>
+
+            <div class="form-btn">
+                <input type="submit" value="Submit Payment">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
